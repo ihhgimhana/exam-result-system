@@ -1,0 +1,77 @@
+body{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+	margin-top: 10;
+	color: #FFFFFF;
+}
+
+.h3, .h2, .add{
+	color: #ccc;
+}
+
+th{
+	color: aliceblue;
+    font-size: 18px;
+}
+
+td{
+	color: aliceblue;
+    font-size: 18px;
+    text-align:justify-all;
+    width: 200;
+}
+
+.form{
+}
+
+.submit, .login_button, .logout_button{
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+
+.submit:hover, .login_button:hover, .logout_button:hover{
+	cursor: pointer;
+    background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+
+.input, .username_box, .password_box{
+	border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color: #ccc;
+}
+
+.table_result2{
+	border-color: white ;
+}
+
+.dashboard_h3{
+	color: #BFF2FD;
+}
+
+.imageStudent{
+	height: 200px;
+	width: 500px;
+}

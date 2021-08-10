@@ -1,0 +1,32 @@
+Examination Results System - READ ME
+
+After hosting the web application on internet you can access to the system easily.
+
+To access Home page : hostname or  hostname/index.php
+To access Administrator Login page : hostname/admin.php
+To access Administrator Dashboard : hostname/dashboard.php
+
+LOGIN CREDENTIALS FOR ADMIN
+
+Username : testAdmin
+Password : test
+
+Admin can change the password. It is recommended to change the password first.
+No Password reset options or multiple Admin accounts due to security reasons.
+
+Admin can add results using Excel sheets with the format of CSV. Template is in this folder named "sample.csv". Admin can add results using one or more csv files with the correct format.
+Admin can delete all results via the delete button.
+
+FOR LOCAL INSTALLATION
+
+Database Name : exam
+Hostname : localhost
+Database Username : root
+Database Password : <Empty>
+
+Requirements
+
+PHP
+Mysql
+Apache server
+(Wamp Server or Xampp)
